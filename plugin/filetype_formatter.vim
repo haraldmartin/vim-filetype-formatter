@@ -37,10 +37,12 @@ let s:ocamlformat = funcref('s:_ocamlformat')
 let s:default_formatters = {
       \ 'bib': 'bibtool -q -s',
       \ 'css': s:prettier,
+      \ 'scss': s:prettier,
       \ 'go': 'gofmt',
       \ 'html': s:prettier,
       \ 'javascript': s:prettier,
       \ 'javascript.jsx': s:prettier,
+      \ 'javascriptreact': s:prettier,
       \ 'json': s:prettier,
       \ 'jsonc': s:prettier,
       \ 'markdown': s:prettier,
